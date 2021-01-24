@@ -5,7 +5,6 @@ import { searchProducts } from '../store/deals';
 const SearchBar = (props) => {
   const { searchProducts } = props;
   const [search, setSearch] = useState('');
-  const [count, setCount] = useState(0);
 
   const handleSearch = (e) => {
     e.preventDefault();
