@@ -1,8 +1,9 @@
-import React, { Component, useState, useEffect } from 'react';
+import React, {  useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { searchProducts } from '../store/deals';
 
 const SearchBar = (props) => {
+  const { searchProducts } = props;
   const [search, setSearch] = useState('');
   const [count, setCount] = useState(0);
 
@@ -12,7 +13,7 @@ const SearchBar = (props) => {
   };
 
   useEffect(() => {
-    props.searchProducts(search);
+    searchProducts(search);
   }, [search]);
 
   return (

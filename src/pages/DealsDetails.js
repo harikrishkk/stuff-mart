@@ -1,4 +1,4 @@
-import React, { Component, useContext } from 'react';
+import React from 'react';
 import Container from '../components/layouts/Container';
 import Loader from '../components/Loader';
 import { useDispatch } from 'react-redux';

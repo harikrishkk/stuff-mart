@@ -1,7 +1,6 @@
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import reducer from './rootReducer';
 import api from '../middlewares/api';
-import logger from '../middlewares/logger';
 
 // Redux persist
 

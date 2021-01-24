@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Questions from '../components/Questions';
 import Support from '../components/Support';
 import Terms from '../components/TermsConditions';

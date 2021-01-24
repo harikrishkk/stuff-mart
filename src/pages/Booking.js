@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React from 'react';
 import Container from '../components/layouts/Container';
 import queryString from 'query-string';
 

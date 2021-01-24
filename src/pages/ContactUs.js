@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Container from '../components/layouts/Container';
 import Email from '../components/tabs/Email';
 import Mobile from '../components/tabs/Mobile';

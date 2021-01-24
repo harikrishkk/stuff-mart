@@ -1,10 +1,10 @@
-import React, { Component, useState } from 'react';
+import React from 'react';
 
 import Card from './Card';
 import Rating from './Rating';
 import SearchBar from './SearchBar';
 import Loader from './Loader';
-import { connect } from 'react-redux';
+
 import { useSelector } from 'react-redux';
 import { selectLoadingStatus, selectFilteredDeals } from '../store/deals';
 

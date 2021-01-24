@@ -11,7 +11,7 @@ const App = (props) => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(loadAllDeals());
-  }, []);
+  }, [dispatch]);
   return (
     <CurrencyContext.Provider value={currencyObj}>
       <Routes />

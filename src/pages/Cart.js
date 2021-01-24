@@ -1,4 +1,4 @@
-import React, { Component, useContext } from 'react';
+import React, {  useContext } from 'react';
 import CurrencyContext from '../contexts/CurrencyContext';
 
 import { formatMoney } from '../utils/format-money';
@@ -29,6 +29,7 @@ const Cart = () => {
             <article className="dt w-100 bb b--black-05 pb2 mt2">
               <div className="dtc w2 w3-ns v-mid">
                 <img
+                  alt="profile images"
                   src={item.imageUrl}
                   className="ba b--black-10 db br2 w2 w3-ns h2 h3-ns"
                 />
