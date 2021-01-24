@@ -14,7 +14,7 @@ const SearchBar = (props) => {
 
   useEffect(() => {
     searchProducts(search);
-  }, [search]);
+  }, [searchProducts,search]);
 
   return (
     <div className="pa4-l">
