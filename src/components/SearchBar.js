@@ -17,9 +17,7 @@ const SearchBar = (props) => {
   }, [searchProducts,search]);
 
   return (
-    <div className="pa4-l">
-      <h1> {count}</h1>
-      <button onClick={() => setCount((prevCount) => prevCount + 1)}>+</button>
+    <div className="pa4-l">     
       <form
         onSubmit={handleSearch}
         className="mw7 center pa0 br2-ns ba b--black-10"
